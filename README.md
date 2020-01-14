@@ -53,7 +53,7 @@ export default class App extends Vue {
 }
 ```
 
-About `src/components/HelloWorld/index.tsx`, you can [guess](/packages/vue-sample/src/components/HelloWorld/index.tsx), but in short,
+About `src/components/HelloWorld/index.tsx`, you could probably [guess](/packages/vue-sample/src/components/HelloWorld/index.tsx), but in short,
 
 - There needs to be a `/>` or a closing tag.
 - Props might not work properly. You need `props={ { msg: 'Welcome to Your Vue.js + TypeScript App' } }`.
@@ -87,4 +87,4 @@ I will experiment later with Nuxt CLI.
 
 In summary, do not use `*.vue`, if you want a better IntelliSense. There are other approaches in component-based structure; like a folder.
 
-Why does Vue adopt Single File Components at all, as it isn't necessary better than Angular's?
+Why does Vue adopt Single File Components at all, as it isn't necessarily better than Angular's?
