@@ -87,4 +87,4 @@ I will experiment later with Nuxt CLI.
 
 In summary, do not use `*.vue`, if you want a better IntelliSense. There are other approaches in component-based structure; like a folder.
 
-Why does Vue adopt Single File Components, as it isn't necessary better than Angular's?
+Why does Vue adopt Single File Components at all, as it isn't necessary better than Angular's?
