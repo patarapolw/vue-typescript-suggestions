@@ -1,0 +1,11 @@
+*
+!*/
+!*.js
+!*.ts
+!*.json
+!*.tsx
+node_modules
+dist
+umd
+.cache
+.nuxt
