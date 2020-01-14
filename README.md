@@ -71,6 +71,8 @@ I will experiment later with Nuxt CLI.
   - One of the workarounds is `<script lang="ts" src="./index.ts">`
 - [Vue template string isn't as smart as TypeScript Intellisense](https://dev.to/skyrpex/comment/6m6j).
   - The workaround is, do not use `<template>`. Use `*.tsx` (or `*.jsx`) instead.
+- It is still simple to reference **foldered component** if you filename is `./index.tsx`
+  - `import HelloWorld from '@/components/HelloWorld'` for example, will reference `@/components/HelloWorld/index.tsx`, will full IntelliSnese.
 - `@angular/cli`'s `ng generate component App` doesn't even create a Single File Component, but instead create a single folder with multiple components.
 
 ```raw
@@ -84,3 +86,5 @@ I will experiment later with Nuxt CLI.
 ## Summary
 
 In summary, do not use `*.vue`, if you want a better IntelliSense. There are other approaches in component-based structure; like a folder.
+
+Why does Vue adopt Single File Components, as it isn't necessary better than Angular's?
